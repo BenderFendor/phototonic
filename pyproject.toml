@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phototonic"
+version = "0.1.0"
+description = "Clean-room Minecraft 26.2 voxel RT overlay for Shrimple with Iris/Voxy integration"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[project.scripts]
+phototonic-build = "phototonic.builder:main"
+
+[tool.setuptools]
+packages = ["phototonic"]
