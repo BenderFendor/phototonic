@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "excludeLodsFromVanillaDepth": false,
+    "opaqueDrawBuffers": [1, 3, 9, 7],
+    "translucentDrawBuffers": [0],
+    "blending": {
+        "-1": "off",
+        "0": "SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ONE_MINUS_SRC_ALPHA"
+    },
+    "useViewportDims": true,
+    "uniforms": [],
+    "samplers": []
+}
